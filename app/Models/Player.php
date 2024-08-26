@@ -7,8 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 class User extends Model
 {
     
-    protected $table = 'user';
+    protected $table = 'player';
 
-    protected $fillable = ['name', 'password', 'chips'];
+    protected $fillable = ['', 'password', 'chips'];
     
 }
